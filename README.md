@@ -48,7 +48,7 @@ The system consists of several key components:
 
 ### Configuration
 
-* The system uses `python-dotenv` to load environment variables from a `.env` file in the project root[cite: 1]. Create a `.env` file if necessary, although the specific variables required are not detailed in the provided code.
+* The system uses `python-dotenv` to load environment variables from a `.env` file in the project root[cite: 1]. Create a `.env` file with your OPENAI_API_KEY. 
 
 ### Running the Application
 
@@ -56,7 +56,7 @@ The system consists of several key components:
     ```bash
     python main.py
     ```
-    This will start the interactive command-line interface[cite: 1].
+    This will start the interactive command-line interface.
 
 ## Usage
 
